@@ -1,4 +1,4 @@
-package basics.oops.level1;
+package basics.oops.lvl1;
 import java.util.*;
 class car{
     public String brand;

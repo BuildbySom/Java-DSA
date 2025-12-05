@@ -1,4 +1,4 @@
-package basics.oops.level1;
+package basics.oops.lvl1;
 class student{
     public String name;
     public int age;
