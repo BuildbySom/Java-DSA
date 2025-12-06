@@ -47,11 +47,47 @@ class Library{
             }
             if(!found){
                 System.out.println("Book not found....");
-                return;
             }
         }
+    }
+    void removeBookById(int id){
+        int indx = -1;
+        for(int i=0;i<count;i++){
+            if(books[i].id==id){
+                indx=i;
+                break;
+            }
+        }
+        if(indx==-1){
+            System.out.println("book not found..");
+            return;
+        }
+        for(int i=indx;i<count-1;i++){
+            books[i]=books[i+1];
+        }
+        count--;
+        System.out.println("Book with id: "+id+" removed.");
     }
 
 }
 public class prblm13 {
+    public static void main(String[] args) {
+        Library lib= new Library();
+        lib.addBook(new Book(1,"JavaBasics","James"));
+        lib.addBook(new Book(2,"CPP","Arthur"));
+        lib.addBook(new Book(3,"DSA","Jackson"));
+
+        lib.showAllBooks();
+        System.out.println();
+
+        lib.searchByTitle("JAvaBAsics");
+        System.out.println();
+
+        lib.removeBookById(2);
+        System.out.println();
+
+        lib.showAllBooks();
+
+
+    }
 }
