@@ -1,6 +1,6 @@
-package basics.oops.lvl3;
+package basics.oops.lvl4;
 
-class Circle extends Shape{
+class Circle extends basics.oops.lvl3.Shape {
     int radius;
     @Override
     public void area(int radius) {
@@ -8,19 +8,22 @@ class Circle extends Shape{
         System.out.println("Area of Circle: "+3.14*(radius*radius));
     }
 }
-class Square extends Shape{
+class Square extends basics.oops.lvl3.Shape {
     int side;
     public void area(int side){
         this.side=side;
         System.out.println("Area of Square: "+side*side);
     }
 }
-public class prblm9 {
-    public static void main(String[] args) {
-        Circle c1= new Circle();
-        c1.area(12);
-        Square s1 = new Square();
-        s1.area(12);
 
+
+public class prblm12 {
+    public static void main(String[] args) {
+        basics.oops.lvl3.Shape s;
+        s = new Circle();
+        s.area(12);
+        s = new Square();
+        s.area(12);
     }
 }
+

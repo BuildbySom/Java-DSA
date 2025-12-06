@@ -1,8 +1,7 @@
 package basics.oops.lvl3;
-class animal{
-    public void sound(){
-        System.out.println("Sound of an Animal");
-    }
+abstract class animal{
+    abstract void sound();
+
 
 }
 class Dog extends animal{
