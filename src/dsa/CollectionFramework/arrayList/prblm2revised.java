@@ -1,8 +1,7 @@
 package dsa.CollectionFramework.arrayList;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 import java.util.ArrayList;
-import java.util.Collections;
+
 
 public class prblm2revised {
     public static void main(String[] args) {
