@@ -1,6 +1,4 @@
-package basics.loops;
-
-import java.util.Scanner;
+package basics.loops.patterns;
 
 public class bonusProblm1 {
     public static void main(String[] args) {

@@ -1,5 +1,4 @@
-package dsa.CollectionFramework.arrayList;
-import java.util.Iterator;
+package basics.CollectionFramework.arrayList;
 import java.util.ArrayList;
 import java.util.Scanner;
 

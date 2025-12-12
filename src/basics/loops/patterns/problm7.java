@@ -1,4 +1,4 @@
-package basics.loops;
+package basics.loops.patterns;
 
 public class problm7 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package dsa.CollectionFramework.arrayList;
+package basics.CollectionFramework.arrayList;
 import java.util.Scanner;
 import java.util.ArrayList;
 
