@@ -7,10 +7,10 @@ public class problm5 {
         boolean desending=true;
         for(int i=0;i<arr.length-1;i++){
             if(arr[i]<arr[i+1]){
-                assending=false;
+                decending=false;
             }
             if (arr[i]>arr[i+1]){
-                desending=false;
+                assending=false;
             }
 
         }
