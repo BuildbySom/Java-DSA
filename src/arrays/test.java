@@ -17,6 +17,7 @@ public class test {
             System.out.println((i+1)+" marks: "+marks[i]);
 
         }
+        System.out.println(marks.length);
 
     }
 }
